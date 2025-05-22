@@ -12,7 +12,29 @@
 		$header = $('#header'),
 		$nav = $('#nav'),
 		$main = $('#main'),
-		$navPanelToggle, $navPanel, $navPanelInner;
+		$navPanelToggle, $navPanel, $navPanelInner,
+		twitterUrl = 'https://github.com/stayhigh';
+		facebookUrl = 'https://github.com/stayhigh';
+		instagramUrl = 'https://github.com/stayhigh';
+		githubUrl = 'https://github.com/stayhigh';
+
+		// Set Twitter link href dynamically
+		document.querySelector('a.icon.brands.fa-twitter').href = twitterUrl;
+		document.querySelector('a.icon.brands.alt.fa-twitter').href = twitterUrl;
+
+		// Set Facebook link href dynamically
+		document.querySelector('a.icon.brands.fa-facebook-f').href = facebookUrl;
+		document.querySelector('a.icon.brands.alt.fa-facebook-f').href = facebookUrl;
+
+		// Set Instragram link href dynamically
+		document.querySelector('a.icon.brands.fa-instagram').href = instagramUrl;
+		document.querySelector('a.icon.brands.alt.fa-instagram').href = instagramUrl;
+
+		// Set Github link href dynamically
+		document.querySelector('a.icon.brands.fa-github').href = githubUrl;
+		document.querySelector('a.icon.brands.alt.fa-github').href = githubUrl;
+
+
 
 	// Breakpoints.
 		breakpoints({
